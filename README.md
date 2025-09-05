@@ -1,3 +1,30 @@
+# Netflix Clone Project 🎬
+
+A Netflix-like streaming platform clone built using **React** for the frontend, **Firebase** for authentication and database, and **TMDB API** for fetching real movie and TV show data.
+
+---
+
+## **Features**
+
+- **User Authentication**: Sign up, login, and logout using **Firebase Authentication**.
+- **Database Integration**: Store user data, watchlists, and preferences with **Firebase Realtime Database / Firestore**.
+- **Dynamic Content**: Fetch real movies and TV shows using the **TMDB API**.
+- **Responsive UI**: Fully responsive layout using **React, HTML, CSS, and JavaScript**.
+- **Interactive Components**: Custom cards, banners, and navigation components.
+
+---
+
+## **Tech Stack**
+
+- **Frontend**: React.js, HTML5, CSS3, JavaScript
+- **Backend / Database**: Firebase (Authentication + Firestore/Realtime Database)
+- **APIs**: TMDB API for movie and TV show data
+- **Other Libraries**: Axios (for API calls), React Router (for routing), Bootstrap / Tailwind (optional)
+
+---
+
+----------------------------------------------------------------
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
