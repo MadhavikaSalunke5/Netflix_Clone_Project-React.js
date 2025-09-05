@@ -1,0 +1,62 @@
+.footer {
+  background-color: #141414;
+  color: #808080;
+  padding: 30px 4%;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  margin: 40px 0;  /* ✅ fixed */
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 28px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.footer-icons img:hover {
+  opacity: 1;
+}
+
+.footer ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  list-style: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.footer ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer ul li:hover {
+  color: #ffffff;
+}
+
+.copyright-text {
+  font-size: 13px;
+  color: #666;
+  margin-top: 20px;
+  text-align: center; /* ✅ better UX */
+}
+
+/* 📱 Responsive tweaks */
+@media (max-width: 600px) {
+  .footer ul {
+    grid-template-columns: repeat(2, 1fr); /* ✅ narrower for mobile */
+  }
+
+  .footer-icons {
+    justify-content: center; /* ✅ center align icons on small screens */
+  }
+}
